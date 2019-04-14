@@ -1,4 +1,5 @@
-# curso-ws
+# Hangman Game
+Front-end project made with VueJS for Hangman game API: https://github.com/nielsenteixeira/hangman-game
 
 ## Project setup
 ```
