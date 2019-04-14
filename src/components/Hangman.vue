@@ -141,6 +141,8 @@ export default {
             this.character = value
             if(this.character.length > 1) {
                 this.button.text = 'Chutar Palavra'
+            } else {
+                this.button.text = 'Verifica letra'
             }
         },
         buildWordTemplate (wordLength) {
