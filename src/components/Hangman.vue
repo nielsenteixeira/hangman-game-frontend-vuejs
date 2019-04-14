@@ -191,7 +191,7 @@ export default {
                             .then((response) => {
                                 this.character = ''
                                 this.input = ''
-                                this.playerLetters = response.data.playerLetters.join(', ')
+                                this.playerLetters = response.data.playerLetters
                                 this.word = response.data.playerWord
                                 this.attempts = response.data.remainingAttempts
                                 

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Login from '@/components/Login.vue'
 import Hangman from '@/components/Hangman.vue'
 
 Vue.use(Router)
@@ -10,13 +9,8 @@ export default new Router({
         {
             path: '/',
             redirect: {
-                name: "Login",
+                name: "Hangman",
             }
-        },
-        {
-            path: "/auth",
-            name: "Login",
-            component: Login
         },
         {
             path: "/hangman",
